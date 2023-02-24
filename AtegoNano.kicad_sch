@@ -1,0 +1,65 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 117f2fda-87e4-4cb8-a0e0-d1c0f3d8ca49)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 19.05 49.53) (size 34.925 17.145) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid be2735fe-03a6-43c3-a448-4af0c401a0a1)
+    (property "Sheetname" "Power" (at 19.05 48.8184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 19.05 67.2596 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AtegoNano"
+        (path "/117f2fda-87e4-4cb8-a0e0-d1c0f3d8ca49" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 22.86) (size 34.29 15.875) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid c2540cc1-2dee-40e0-835e-5dcdae707cac)
+    (property "Sheetname" "USB_FT232RL" (at 19.05 22.1484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "USB_FT232RL.kicad_sch" (at 19.05 39.3196 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AtegoNano"
+        (path "/117f2fda-87e4-4cb8-a0e0-d1c0f3d8ca49" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 19.05 76.835) (size 34.925 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ee0ec88c-03a2-4eba-b191-2100138aa080)
+    (property "Sheetname" "ATMEGA328PM" (at 19.05 76.1234 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "ATMEGA328PM.kicad_sch" (at 19.05 96.4696 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "AtegoNano"
+        (path "/117f2fda-87e4-4cb8-a0e0-d1c0f3d8ca49" (page "4"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
